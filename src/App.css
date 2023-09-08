@@ -1,38 +1,398 @@
-.App {
-  text-align: center;
+/* Navbar.css */
+.navbar {
+  background-color: #f6f4f1;
+  color: #96695E;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  height: auto;
+  width: 90px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo img {
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #96695E;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+  scale: 1.2;
+  color: #a32f12;
+  font-weight: 500;
+}
+
+.NavbarButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.signButton button {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 23px;
+  border: 0;
+}
+
+.signButton button:hover {
+  background: none;
+  border-radius: 999px;
+  box-shadow: #96695E 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #96695E;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 23px;
+  border: 1px solid #96695E;
+}
+
+
+
+/* landing page */
+
+.landingPage {
+  background-color: #EDE7DE;
+  background-image: url(./img/landingBg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+}
+
+.imgOnLandingPage {
+border-radius: 50%;
+  position: relative;
+  top: -16%;
+  left: -10%;
+  width: 600px;
+  height: 520px;
+  overflow: hidden;
+
+}
+
+.imgOnLandingPage img {
+  width: 100%;
+}
+
+.textHeading {
+  width: 400px;
+}
+
+.textHeading h1 {
+  font-size: 3.5rem;
+  color: #96695E;
+}
+
+.createAccountButton {
+  background-color: transparent;
+  color: #5E8B96;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 20px 50px;
+  border: 1px solid #5E8B96;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.createAccountButton:hover {
+  background-color: green;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 1rem;
+}
+
+/* landing page end */
+
+/* sign Up */
+.SignUpCard {
+  background-color: #f6f4f1;
+  background-image: url(./img/signBg1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 5px 10px;
+
+}
+
+.logoImg {
+  height: auto;
+  width: 100px;
+  
+}
+
+.logoImg img {
+  width: 100%;
+}
+
+.SignupCardFrom {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 350px;
+  height: 68vh;
+  background: #EDE7DE;
+  border-radius: 1rem;
+  box-shadow: #5e8b967a 0px 50px 100px -20px, #5e8b968b 0px 30px 60px -30px, #5e8b968e 0px -2px 6px 0px inset;
+}
+
+.SignupCardFrom h1{
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #5E8B96;
+}
+.inputFileds {
+  height: 270px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.inputFileds input {
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  width: 280px;
+  height: 30px;
+  border-radius: 1rem;
+  border: none;
+}
+
+
+.inputFileds span {
+  color: #96695E;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 400;
+
+}
+
+.buttonSignUp p {
+  color: rgb(187, 4, 4);
+
+}
+
+.buttonSignUp {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.buttonSignUp button{
+  background-color: #5E8B96;
+  width: 300px;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.buttonSignUp button:hover{
+  border: 1px solid  #5E8B96;
+  background-color: transparent;
+  color: #5E8B96;
+}
+
+
+/* sign up end */
+
+/* profile */
+.Profilepage{
+  margin-top: 30px;
+  display: flex;
+  height: 485px;
+}
+
+
+
+.ProfileSideBare{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding:20px 40px;
+}
+
+.home{
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.home:hover{
+  background-color: #ede7de5f;
+  border-radius: 1rem;
+}
+
+.hovered {
+  background-color: #EDE7DE;
+    border-radius: 1rem;
+}
+
+
+.imgPro img{
+
+  padding-right: 30px;
+  height: 35px;
+  width: 35px;
+}
+
+.home p{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.ProfileSec{
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #EDE7DE;
+  background-image: url(./img/profilebackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.ProfileSec h1{
+  color: #96695E;
+}
+
+.ProfileCards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.imgLink img{
+  color: white;
+  height: 80px;
+  width: 80px;
+}
+
+
+.ProfileLinkCard{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #5E8B96;
+  border-radius: 1rem;
+  height:160px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.ProfileLinkCard h3{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.ProfileLinkCard:hover{
+  scale: 1.02;
+}
+
+
+
+.UploadSection{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 15px;
+}
+
+
+.UploadImgSec{
+  height: 80%;
+  width: 80%;
+}
+
+.UploadImgSec img{
+  width: 100%;
+}
+
+
+.InputSection{
+  display: flex;
+  align-items: center;
+  color: black;
+  gap: 10px;
+}
+
+.InputSection input{
+  padding: 2px 10px;
+  border: none;
+  color: whitesmoke;
+  height: 30px;
+  width: 200px;
+}
+
+
+.InputSection p{
+  color: #96695E;
+  font-weight: 400;
+  font-size: 1.2rem;
+
+}
+
+.UploadSubmitbtu button{
+  padding: 15px 40px;
+  background-color: #5E8B96;
+  border: none;
+  border-radius: 1rem;
   color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
