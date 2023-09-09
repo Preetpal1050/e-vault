@@ -15,7 +15,7 @@ export default function LandingPage() {
         </div>
 
       </div>
-      <Profilepage/>
+      {/* <Profilepage/> */}
     </>
   )
 }

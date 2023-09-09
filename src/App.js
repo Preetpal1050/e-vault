@@ -1,5 +1,8 @@
 
 import './App.css';
+import ProfileCards from './Pages/ProfileCards';
+import TrackCard from './Pages/TrackCard';
+import Uploadpage from './Pages/Uploadpage';
 import LandingPage from './components/LandingPage';
 import Login from './components/Login';
 import Navbar from "./components/Navbar";
@@ -20,7 +23,10 @@ function App() {
       <Route path="/" element={<LandingPage />} />
       <Route path="/SignUp" element={<SignUp />} />
       <Route path="/Login" element={<Login />} />
-      <Route path="/" element={<Profilepage />} />
+      <Route path="/Profile" element={<Profilepage />} />
+      <Route path="/UploadPage" element={<Uploadpage />} />
+      <Route path="/ProfileCard" element={<ProfileCards />} />
+      <Route path="/TrackCard" element={<TrackCard />} />
 
       </Routes>
 

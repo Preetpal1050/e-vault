@@ -19,7 +19,9 @@ export default function Login() {
                     </div>
 
                     <div className="buttonSignUp">
+                        <Link to="/Profile" style={{ textDecoration: "none" }}>
                         <button>Sign In</button>
+                        </Link>
                         <p>Forgot security pin?</p>
                         <span>New user?<Link to="/SignUp" style={{ textDecoration: "none" }}>Sign Up</Link></span>
                     </div>
