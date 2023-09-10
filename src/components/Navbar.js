@@ -13,6 +13,7 @@ export default function Navbar() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="#">About</Link></li>
           <li><Link to="#">Contact</Link></li>
+          <li><Link to="/PaymentPage">Payment</Link></li>
         </ul>
         <div className="NavbarButton">
           <div className="signButton">
