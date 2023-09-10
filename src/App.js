@@ -1,6 +1,7 @@
 
 import './App.css';
 import ProfileCards from './Pages/ProfileCards';
+import ReciveDocs from './Pages/ReciveDocs';
 import TrackCard from './Pages/TrackCard';
 import Uploadpage from './Pages/Uploadpage';
 import LandingPage from './components/LandingPage';
@@ -28,6 +29,7 @@ function App() {
       <Route path="/UploadPage" element={<Uploadpage />} />
       <Route path="/ProfileCard" element={<ProfileCards />} />
       <Route path="/TrackCard" element={<TrackCard />} />
+      <Route path="/ReciveDocs" element={<ReciveDocs />} />
 
       </Routes>
 

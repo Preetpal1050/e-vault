@@ -24,13 +24,14 @@ export default function ProfileCards() {
                             </div>
                         </Link>
 
-
+                        <Link to="/ReciveDocs" style={{ textDecoration: "none", color: "white" }}>
                         <div className="ProfileLinkCard">
                             <div className="imgLink">
                                 <img src={Retrieve} alt="" />
                             </div>
                             <h3>Retrieve Documents</h3>
                         </div>
+                        </Link>
 
                         <Link to="/TrackCard" style={{ textDecoration: "none", color: "white" }}>
                         <div className="ProfileLinkCard">

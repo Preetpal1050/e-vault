@@ -77,7 +77,7 @@
 }
 
 
-.vaultConnect{
+.vaultConnect {
   margin-right: 20px;
   display: flex;
   align-items: center;
@@ -87,11 +87,11 @@
   cursor: pointer;
 }
 
-.vaultConnect p{
+.vaultConnect p {
   font-weight: 500;
 }
 
-.vaultConnect img{
+.vaultConnect img {
   width: 100%;
 }
 
@@ -111,7 +111,7 @@
 }
 
 .imgOnLandingPage {
-border-radius: 50%;
+  border-radius: 50%;
   position: relative;
   top: -16%;
   left: -10%;
@@ -175,7 +175,7 @@ border-radius: 50%;
 .logoImg {
   height: auto;
   width: 100px;
-  
+
 }
 
 .logoImg img {
@@ -195,11 +195,12 @@ border-radius: 50%;
   box-shadow: #5e8b967a 0px 50px 100px -20px, #5e8b968b 0px 30px 60px -30px, #5e8b968e 0px -2px 6px 0px inset;
 }
 
-.SignupCardFrom h1{
+.SignupCardFrom h1 {
   font-size: 1.3rem;
   margin-bottom: 20px;
   color: #5E8B96;
 }
+
 .inputFileds {
   height: 270px;
   display: flex;
@@ -241,7 +242,7 @@ border-radius: 50%;
 
 }
 
-.buttonSignUp button{
+.buttonSignUp button {
   background-color: #5E8B96;
   width: 300px;
   color: white;
@@ -254,8 +255,8 @@ border-radius: 50%;
   cursor: pointer;
 }
 
-.buttonSignUp button:hover{
-  border: 1px solid  #5E8B96;
+.buttonSignUp button:hover {
+  border: 1px solid #5E8B96;
   background-color: transparent;
   color: #5E8B96;
 }
@@ -264,7 +265,7 @@ border-radius: 50%;
 /* sign up end */
 
 /* profile */
-.Profilepage{
+.Profilepage {
   display: flex;
   height: 520px;
   padding: 0 20px;
@@ -272,18 +273,18 @@ border-radius: 50%;
 
 
 
-.ProfileSideBare{
+.ProfileSideBare {
   width: 270px;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  padding:20px 40px;
+  padding: 20px 40px;
   color: white;
 }
 
 
-.home{
+.home {
   padding: 5px 10px;
   display: flex;
   justify-content: start;
@@ -293,7 +294,7 @@ border-radius: 50%;
   color: rgb(0, 0, 0);
 }
 
-.home:hover{
+.home:hover {
   background-color: #5e8b969c;
   color: white;
   border-radius: 1rem;
@@ -302,23 +303,23 @@ border-radius: 50%;
 .hovered {
   background-color: #6d9fac;
   color: white;
-    border-radius: 1rem;
+  border-radius: 1rem;
 }
 
 
-.imgPro img{
+.imgPro img {
   padding-right: 30px;
   height: 35px;
   width: 35px;
 }
 
 
-.home p{
+.home p {
   font-size: 1rem;
   font-weight: 500;
 }
 
-.ProfileSec{
+.ProfileSec {
   padding: 10px 20px;
   width: 100%;
   background-color: #EDE7DE;
@@ -329,11 +330,11 @@ border-radius: 50%;
   color: white;
 }
 
-.ProfileSec h1{
+.ProfileSec h1 {
   color: #96695E;
 }
 
-.ProfileCards{
+.ProfileCards {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -341,14 +342,14 @@ border-radius: 50%;
   gap: 40px;
 }
 
-.imgLink img{
+.imgLink img {
   color: white;
   height: 80px;
   width: 80px;
 }
 
 
-.ProfileLinkCard{
+.ProfileLinkCard {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   display: flex;
   align-items: center;
@@ -356,23 +357,23 @@ border-radius: 50%;
   gap: 10px;
   background-color: #5E8B96;
   border-radius: 1rem;
-  height:160px;
+  height: 160px;
   width: 300px;
   cursor: pointer;
 }
 
-.ProfileLinkCard h3{
+.ProfileLinkCard h3 {
   font-size: 1.2rem;
   font-weight: 500;
 }
 
-.ProfileLinkCard:hover{
+.ProfileLinkCard:hover {
   scale: 1.02;
 }
 
 
 
-.UploadSection{
+.UploadSection {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -381,7 +382,7 @@ border-radius: 50%;
   width: 100%;
 }
 
-.UploadPage h1{
+.UploadPage h1 {
   text-align: center;
   margin: 0;
   padding: 10px 0;
@@ -391,24 +392,24 @@ border-radius: 50%;
 }
 
 
-.UploadImgSec{
+.UploadImgSec {
   height: 70%;
   width: 70%;
 }
 
-.UploadImgSec img{
+.UploadImgSec img {
   width: 100%;
 }
 
 
-.InputSection{
+.InputSection {
   display: flex;
   align-items: center;
   color: black;
   gap: 10px;
 }
 
-.InputSection input{
+.InputSection input {
   padding: 2px 10px;
   border: none;
   color: whitesmoke;
@@ -418,19 +419,19 @@ border-radius: 50%;
 }
 
 
-.InputSection p{
+.InputSection p {
   color: #96695E;
   font-weight: 400;
   font-size: 1.2rem;
 
 }
 
-.UploadField{
+.UploadField {
   margin-top: -80px;
   margin-bottom: 30px;
 }
 
-.UploadField .inputF{
+.UploadField .inputF {
   text-align: center;
   padding-left: 150px;
   padding-bottom: 0;
@@ -441,7 +442,7 @@ border-radius: 50%;
   width: 75%;
 }
 
-.UploadSubmitbtu button{
+.UploadSubmitbtu button {
   padding: 15px 40px;
   background-color: #5E8B96;
   border: none;
@@ -453,10 +454,10 @@ border-radius: 50%;
 }
 
 
-.UploadSubmitbtu button:hover{
+.UploadSubmitbtu button:hover {
   background-color: transparent;
   border: .3px solid #96695E;
-  color:#96695E;
+  color: #96695E;
   font-weight: 500;
 }
 
@@ -464,7 +465,7 @@ border-radius: 50%;
 
 /* trackCard */
 
-.track{
+.track {
   padding: 10px 0;
   display: flex;
   align-items: center;
@@ -472,31 +473,32 @@ border-radius: 50%;
   flex-direction: column;
   gap: 15px;
 }
-.SelectTrackText{
+
+.SelectTrackText {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.SelectTrackText h1{
+.SelectTrackText h1 {
   font-size: 1.3rem;
   font-weight: 400;
 }
 
-.SelectTrackText input{
+.SelectTrackText input {
   height: 30px;
   border-radius: 1rem;
   border: none;
   padding: 5px 10px;
 }
 
-.CardTrack{
+.CardTrack {
   display: flex;
   gap: 30px;
 
 }
 
-.cardST{
+.cardST {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -508,12 +510,12 @@ border-radius: 50%;
 }
 
 
-.CardTrackImg{
+.CardTrackImg {
   height: 50px;
   width: 50px;
 }
 
-.CardTrackImg  img{
+.CardTrackImg img {
   width: 100%;
 }
 
@@ -522,7 +524,7 @@ border-radius: 50%;
 
 
 
-.FormTrack{
+.FormTrack {
 
   display: flex;
   align-items: start;
@@ -537,22 +539,24 @@ border-radius: 50%;
 
 }
 
-.FormHead{
+.FormHead {
   display: flex;
- background-color: #96695E;
- color: white;
- margin: 0;padding: 6px 7px;
- margin-top: -20px;margin-left:10px;
- border-radius: .8rem;
- 
+  background-color: #96695E;
+  color: white;
+  margin: 0;
+  padding: 6px 7px;
+  margin-top: -20px;
+  margin-left: 10px;
+  border-radius: .8rem;
+
 }
 
-.FormHead span{
+.FormHead span {
   font-size: 1rem;
 }
 
 
-.FormInputT{
+.FormInputT {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -560,7 +564,7 @@ border-radius: 50%;
   padding-left: 90px;
 }
 
-.NumberInputFormT{
+.NumberInputFormT {
   padding-top: 20px;
   display: flex;
   align-items: center;
@@ -568,60 +572,60 @@ border-radius: 50%;
 
 }
 
-.NumberInputFormT p{
+.NumberInputFormT p {
   font-size: 1.4rem;
   font-weight: 500;
   margin: 0;
   color: #96695E;
 }
 
-.NumberInputFormT input{
+.NumberInputFormT input {
   font-size: 1.4rem;
   border-radius: 1rem;
   padding: 3px 10px;
   border: .3px solid black;
 }
 
-.TrackCaptcha{
+.TrackCaptcha {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.readCaptcha{
+.readCaptcha {
   display: flex;
   align-items: center;
   gap: 10px;
- 
+
 }
 
-.readCaptcha p{
+.readCaptcha p {
   font-size: 1.4rem;
   font-weight: 500;
   color: #96695E;
 }
 
-.readCaptcha h3{
-  padding: 3px 10px ;
+.readCaptcha h3 {
+  padding: 3px 10px;
   background-color: #5e8b9653;
   color: rgb(108, 108, 108);
   border: .3px solid #96695E;
 }
 
-.inputCaptcha{
+.inputCaptcha {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
 
-.inputCaptcha p{
+.inputCaptcha p {
   font-size: 1.4rem;
   font-weight: 500;
   color: #96695E;
 }
 
-.inputCaptcha input{
+.inputCaptcha input {
   font-size: 1.3rem;
   border-radius: 1rem;
   width: 200px;
@@ -629,18 +633,18 @@ border-radius: 50%;
   border: .3px solid black;
 }
 
-.TrackSubmitButton button{
-padding: 15px 40px;
-border: none;
-background-color: #5E8B96;
-color: white;
-font-size: 1.3rem;
-font-weight: 500;
-border-radius: 1rem;
+.TrackSubmitButton button {
+  padding: 15px 40px;
+  border: none;
+  background-color: #5E8B96;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 1rem;
 }
 
 
-.TrackSubmitButton button:hover{
+.TrackSubmitButton button:hover {
   background-color: transparent;
   border: .4px solid #96695E;
   color: #96695E;
@@ -650,11 +654,12 @@ border-radius: 1rem;
 
 /* paymentpage */
 
-.HeadPay{
+.HeadPay {
   text-align: center;
   font-size: 1rem;
 }
-.Paymentpage{
+
+.Paymentpage {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -662,36 +667,37 @@ border-radius: 1rem;
   height: 400px;
 }
 
-.ButtonSecPay{
+.ButtonSecPay {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.PayButton{
+
+.PayButton {
   display: flex;
   gap: 40px;
 }
 
-.PayButton .pay{
-height: 80px;
-width: 300px;
-background-color: #2d2ba0;
-color: white;
-font-size: 3rem;
-border: none;
-border-radius: 1rem;
-cursor: pointer;
+.PayButton .pay {
+  height: 80px;
+  width: 300px;
+  background-color: #2d2ba0;
+  color: white;
+  font-size: 3rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
-.PayButton .pay:hover{
+.PayButton .pay:hover {
   color: #2d2ba0;
   background-color: transparent;
   font-size: 3rem;
-  border: 1px solid #2d2ba0 ;
- 
-  }
+  border: 1px solid #2d2ba0;
 
-.PayButton .receive{
+}
+
+.PayButton .receive {
   height: 80px;
   width: 300px;
   background-color: #007f13;
@@ -700,13 +706,79 @@ cursor: pointer;
   border: none;
   border-radius: 1rem;
   cursor: pointer;
-  }
+}
 
 
-  .PayButton .receive:hover{
-    color: #007f13;
-    background-color: transparent;
-    font-size: 3rem;
-    border: 1px solid #007f13 ;
-   
-    }
+.PayButton .receive:hover {
+  color: #007f13;
+  background-color: transparent;
+  font-size: 3rem;
+  border: 1px solid #007f13;
+
+}
+
+
+
+/* RecivePage */
+.ReciveDataPage h1{
+  margin: 0;padding: 0;text-align: center;
+}
+
+.TableRecive {}
+
+.SearchRecive{
+  padding: 13px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: black;
+}
+
+.SearchRecive p{
+  font-size: 1.3rem;
+  color: #96695E;
+  font-weight: 500;
+}
+
+.SearchRecive input{
+  font-size: 1.7rem;
+  color: black;
+}
+
+.SearchImgRecive{
+  height: 30px;
+  width: 30px;
+ cursor: pointer;
+}
+
+.SearchImgRecive img{
+  width: 100%;
+}
+
+.SearchImgRecive:hover{
+ scale: 1.2;
+}
+
+
+/* MyTable.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: #000000;
+}
+
+th {
+  background-color: #5E8B96;
+  color: white;
+}
