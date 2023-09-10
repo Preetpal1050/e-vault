@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../img/evault Logo2.png"
+import vault from "../img/vault.png"
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
@@ -16,23 +17,26 @@ export default function Navbar() {
           <li><Link to="/PaymentPage">Payment</Link></li>
         </ul>
         <div className="NavbarButton">
-          <div className="signButton">
 
+          <div className="signButton">
             <Link to="/Login" style={{ textDecoration: "none" }}>
               <button>
                 Sign In
               </button>
             </Link>
-
           </div>
-          <div className="signButton">
 
+          <div className="signButton">
             <Link to="/SignUp" style={{ textDecoration: "none" }}>
               <button>
                 Sign up
               </button>
             </Link>
+          </div>
 
+          <div className="vaultConnect">
+            <p>WalletConnect</p>
+            <img src={vault} alt="" />
           </div>
         </div>
       </nav>
