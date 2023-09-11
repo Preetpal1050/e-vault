@@ -22,8 +22,25 @@ export default function Uploadpage() {
                                 <input className='inputF' type="file" placeholder='Upload' />
                             </div>
                             <div className="InputSection">
-                                <p>Document type:</p>
-                                <input type="text" placeholder='(dropdown)' />
+
+                                <div className="InputText">
+                                <span>Case No :</span>
+                                <input type="text" placeholder='132AAdwfe0' />
+                                </div>
+                                <div className="InputText">
+                                <span>File :</span>
+                                <input type="text" placeholder='Docs.txt' />
+                                </div>
+                                <div className="InputText">
+                                <span>Case type :</span>
+                                <input type="text" placeholder='Family' />
+                                </div>
+                                <div className="InputText">
+                                <span>Pending/disposed off :</span>
+                                <input type="text" placeholder='Pending' />
+                                </div>  
+                               
+
                             </div>
                             <div className="UploadSubmitbtu">
                                 <button>Submit</button>

@@ -1,4 +1,5 @@
 
+import { WebChatContainer } from '@ibm-watson/assistant-web-chat-react';
 import './App.css';
 import ProfileCards from './Pages/ProfileCards';
 import ReciveDocs from './Pages/ReciveDocs';
@@ -13,6 +14,14 @@ import SignUp from './components/SignUp';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
+
+  const webChatOptions = {
+    integrationID: "44bbd475-6c34-41d6-8775-63514855a585",
+    region: "au-syd",
+    serviceInstanceID: "e6126829-b55a-4d52-b47d-a5e5b2cb0d50"
+  };
+
+
   return (
     <>
 
@@ -32,6 +41,7 @@ function App() {
       <Route path="/ReciveDocs" element={<ReciveDocs />} />
 
       </Routes>
+      <WebChatContainer config={webChatOptions}/>
 
     </Router>
       </>
